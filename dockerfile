@@ -3,7 +3,6 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 
 # Create a working directory for the application
 WORKDIR /app
-EXPOSE 80
 EXPOSE 8080
 
 # Use the .NET SDK image for building the application

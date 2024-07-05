@@ -21,8 +21,10 @@ var app = builder.Build();
 
 EngineContext.Current.Configure(app.Services);
 
+
 app.UseSwagger();
 app.UseSwaggerUI();
+
 
 app.UseSwagger();
 app.UseSwaggerUI();
