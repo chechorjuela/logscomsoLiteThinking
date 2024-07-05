@@ -1,0 +1,6 @@
+@LogsLiteThinking.API_HostAddress = http://localhost:5100
+
+GET {{LogsLiteThinking.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
