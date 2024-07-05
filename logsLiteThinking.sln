@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC8FD29A-AEED-440B-B7F1-1A618D5368FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6977AB1D-E47C-4074-9E7F-6D1F57D26920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsLiteThinking.API", "src\Presentation\LogsLiteThinking.API\LogsLiteThinking.API.csproj", "{491D9746-2852-482A-826A-13A04B33D0DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{3C3B5152-28A0-41DC-BB45-2C5AA426EEE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogLiteThinking.Domain", "src\Domain\LogLiteThinking.Domain\LogLiteThinking.Domain.csproj", "{CA9AF980-D604-419A-8473-5D911CEFA861}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{32D2130C-040C-481B-8A19-8493A20BB25E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogLiteThinking.Infrastructure", "src\Infrastructure\LogLiteThinking.Infrastructure\LogLiteThinking.Infrastructure.csproj", "{C5D05215-BA97-4F2C-9C2B-1E3CD135A2B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6E51346A-2895-4527-9515-D97015AA3A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogLiteThinking.Application", "src\Core\LogLiteThinking.Application\LogLiteThinking.Application.csproj", "{62E93FB6-BB70-45B9-881B-85A664001BF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6CA4BF16-F985-4077-8DF9-7010046FD1A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsLiteThinking.Shared", "src\Shared\LogsLiteThinking.Shared\LogsLiteThinking.Shared.csproj", "{AFFEB9A7-4089-4CC7-8B20-D0B5E7901C82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{491D9746-2852-482A-826A-13A04B33D0DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491D9746-2852-482A-826A-13A04B33D0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491D9746-2852-482A-826A-13A04B33D0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491D9746-2852-482A-826A-13A04B33D0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9AF980-D604-419A-8473-5D911CEFA861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9AF980-D604-419A-8473-5D911CEFA861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9AF980-D604-419A-8473-5D911CEFA861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9AF980-D604-419A-8473-5D911CEFA861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D05215-BA97-4F2C-9C2B-1E3CD135A2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D05215-BA97-4F2C-9C2B-1E3CD135A2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D05215-BA97-4F2C-9C2B-1E3CD135A2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D05215-BA97-4F2C-9C2B-1E3CD135A2B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E93FB6-BB70-45B9-881B-85A664001BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E93FB6-BB70-45B9-881B-85A664001BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E93FB6-BB70-45B9-881B-85A664001BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E93FB6-BB70-45B9-881B-85A664001BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFFEB9A7-4089-4CC7-8B20-D0B5E7901C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFEB9A7-4089-4CC7-8B20-D0B5E7901C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFEB9A7-4089-4CC7-8B20-D0B5E7901C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFEB9A7-4089-4CC7-8B20-D0B5E7901C82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6977AB1D-E47C-4074-9E7F-6D1F57D26920} = {DC8FD29A-AEED-440B-B7F1-1A618D5368FC}
+		{491D9746-2852-482A-826A-13A04B33D0DA} = {6977AB1D-E47C-4074-9E7F-6D1F57D26920}
+		{3C3B5152-28A0-41DC-BB45-2C5AA426EEE8} = {DC8FD29A-AEED-440B-B7F1-1A618D5368FC}
+		{CA9AF980-D604-419A-8473-5D911CEFA861} = {3C3B5152-28A0-41DC-BB45-2C5AA426EEE8}
+		{32D2130C-040C-481B-8A19-8493A20BB25E} = {DC8FD29A-AEED-440B-B7F1-1A618D5368FC}
+		{C5D05215-BA97-4F2C-9C2B-1E3CD135A2B4} = {32D2130C-040C-481B-8A19-8493A20BB25E}
+		{6E51346A-2895-4527-9515-D97015AA3A1A} = {DC8FD29A-AEED-440B-B7F1-1A618D5368FC}
+		{62E93FB6-BB70-45B9-881B-85A664001BF3} = {6E51346A-2895-4527-9515-D97015AA3A1A}
+		{6CA4BF16-F985-4077-8DF9-7010046FD1A1} = {DC8FD29A-AEED-440B-B7F1-1A618D5368FC}
+		{AFFEB9A7-4089-4CC7-8B20-D0B5E7901C82} = {6CA4BF16-F985-4077-8DF9-7010046FD1A1}
+	EndGlobalSection
+EndGlobal
